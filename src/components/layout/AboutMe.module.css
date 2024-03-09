@@ -10,3 +10,8 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.594);
   padding-bottom: 10px;
 }
+
+.container h3 {
+  text-align: center;
+  width: 80%;
+}
