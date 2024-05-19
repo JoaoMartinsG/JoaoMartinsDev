@@ -1,15 +1,14 @@
-import Banner from './components/layout/Banner'
-import AboutMe from './components/layout/AboutMe'
-import Projects from './components/layout/Projects'
-import Card from './components/ui/Card'
+import Banner from "./components/layout/Banner";
+import AboutMe from "./components/layout/AboutMe";
+import Projects from "./components/layout/Projects";
+import Card from "./components/ui/Card";
 
 function App() {
-
   return (
     <>
       <Banner />
       <main>
-      <Card
+        <Card
           title="About me"
           content="With coding as my true passion, I enrolled in Le Wagon to pursue a
         career aligned with what truly excites me . This decision marked a
@@ -20,7 +19,7 @@ function App() {
         <Projects />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
